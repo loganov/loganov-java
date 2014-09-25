@@ -70,9 +70,7 @@ Attributes
 Usage
 -----
 #### loganov-java::default
-TODO: Write usage instructions for each cookbook.
 
-e.g.
 Just include `loganov-java` in your node's `run_list` and override the appropriate attributes in `default.rb`.
 
 License and Authors
