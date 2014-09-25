@@ -1,3 +1,12 @@
+#
+# Cookbook Name:: loganov-java
+# Attributes:: default
+#
+# Copyright 2014, Loganov Industries
+#
+# All rights reserved - Do Not Redistribute
+#
+
 default['java']['jdk_version'] = '7'
 default['java']['arch'] = kernel['machine'] =~ /x86_64/ ? "x86_64" : "i586"
 default['java']['accept_license_agreement'] = true
